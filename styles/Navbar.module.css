@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.authLinks {
+  display: flex;
+}
+
+.authLinks button {
+  margin-left: 10px;
+}
+
+.register {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+/* pages/register.module.css */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .labelName {
+    padding-right: 90px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .labelMail {
+    padding-right: 115px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .labelPsw {
+    padding-right: 90px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .labelCPsw {
+    padding-right: 40px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
