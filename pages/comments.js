@@ -23,20 +23,11 @@ const testimonials = [
     name: "Chiru",
     role: "Full Stack Web Developer",
     location: "Algeria",
-    image: "/images/chiru.jpg",
     message:
       "Your content is special. The projects make it easy for beginners to create something meaningful!",
     rating: 5,
   },
-  {
-    name: "Niteesh",
-    role: "Full Stack Developer",
-    location: "Quarter Ltd.",
-    image: "/images/niteesh.jpg",
-    message:
-      "The tutorials are exceptional. Real-world examples make it so much easier to understand complex programming topics!",
-    rating: 5,
-  },
+  
 ];
 
 const Comments = () => {

@@ -5,10 +5,11 @@ const TestimonialCard = ({ name, role, location, image, message, rating }) => {
   return (
     <div className={styles.testimonialCard}>
       <div className={styles.testimonialHeader}>
-        <img src={image} alt={`${name}'s profile`} className={styles.profileImage} />
         <div className={styles.testimonialInfo}>
+          <div>
           <h3 className={styles.testimonialName}>{name}</h3>
           <p className={styles.testimonialRole}>{role}</p>
+          </div>
           <p className={styles.testimonialLocation}>{location}</p>
         </div>
       </div>

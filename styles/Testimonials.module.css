@@ -50,7 +50,7 @@
   }
   
   .testimonialCard {
-    background-color: #f9f9f9;
+    background-color: #a69eef;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -97,6 +97,6 @@
   
   .testimonialRating {
     font-size: 18px;
-    color: #ffcc00;
+    color: #07783c;
   }
   
